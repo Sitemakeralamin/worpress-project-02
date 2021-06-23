@@ -1,0 +1,215 @@
+/*
+
+Theme Name: profolio 
+Theme uri: https://mdalamin.com
+Author: md alamin
+Author uri:https://mdalamin.com
+version:1.4
+description: This theme is used by protfolio site 
+Text Domain: protfolio
+
+
+*/
+nav.navbar.navbar-expand-md.navbar-dark.navbar-custom.fixed-top {
+    background-color: #033136;
+}
+.footer .text-container ul li {
+    list-style-type: none;
+}
+
+.text-container ul li a {
+  color: white;
+}
+
+.text-container table {
+    width: 100%;
+    color: white;
+}
+
+
+
+.container-fluid {
+   
+    margin-top: 100px;
+
+}
+.breadcrumb {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 0.75rem 1rem;
+    margin-bottom: 1rem;
+    list-style: none;
+    background-color: #e9ecef;
+    border-radius: 0.25rem;
+    width: 174%;
+}
+.breadcrumb-item {
+    font-size: 28px;
+    padding: 10px;
+}
+
+
+.pagination {
+  padding: 21px;
+}
+.pagination .page-item {
+  padding: 20px;
+  font-size: 14px;
+
+}
+
+.pagination .page-item a{
+	
+	  text-decoration: none;
+}
+
+.sidebar {
+    width: 100%;
+    margin-left: 234px;
+  
+    border: 2px solid #ddd;
+    margin-left: 164px;
+    width: 100%;
+    padding: 22px;
+    background-color: #ddd;
+    margin-bottom: 17px;
+    margin-top: 44px;
+}
+
+.sidebar ul{
+	padding: 5px;
+}
+.sidebar ul li{
+	padding-bottom: 5px;
+	list-style-type: none;
+}
+.sidebar ul li a{
+	text-decoration: none;
+	font-weight: bold;
+}
+.sidebar ul li a:hover{
+	color: #033136;
+	transition: .5s ease all;
+}
+.input-group{
+	margin-left: 234px;
+}
+
+.post_meta {
+    margin-top: 7px;
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 2px;
+    background-color: #ddd;
+    margin-bottom: 20px;
+}
+
+.feature_image a img.wp-post-image{
+	width: 100%;
+	height: auto;
+}
+
+/*--Pagination Style--*/
+.pagination_area{
+	margin: 50px 0px;
+}
+.pagination_area .prev {
+  font-size: 20px;
+	text-decoration: none;
+}
+.pagination_area .next {
+  font-size: 20px;
+	text-decoration: none;
+}
+
+
+.page-numbers {
+    padding: 16px;
+    font-size: 23px;
+}
+.page-numbers.current {
+    background-color: blue;
+    color: #fff;
+    padding-bottom: 20;
+    padding: 10px;
+}
+
+/*-- Breadcumb Style--*/
+
+.breadcumb h4 {
+
+  font-style: revert;
+  font-weight: bold;
+  padding-top: 20px;
+  font-size: 33px;
+  padding-bottom: 19px;
+	color: #9d8e8e;
+}
+.breadcumb {
+	margin-top: 100px;
+	background-color: #A4B4B4;
+	text-align: center;
+	padding-bottom: 20px;
+	margin-bottom: 30px;
+}
+.breadcumb ul li {
+  list-style-type: none;
+
+  display: contents;
+
+}
+.breadcumb ul li a {
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 33px;
+	color:#ddd;
+}
+
+.footer {
+    padding-top: 5rem;
+    background-color: #113448;
+    margin-top: 33px;
+}
+
+
+/* 404 page style*/
+
+.image-404 img {
+    width: 100%;
+    margin-top: 7%;
+    margin-bottom: 4%;
+}
+
+.link-404{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+.content-404{
+	text-align: center;
+	font-size: 15px;
+
+}
+.link-404 a{
+	font-size: 25px;
+	font-family: serif;
+	
+}
+.link-404 a:hover{
+	color: red;
+}
+
+select.wpcf7-form-control.wpcf7-select.wpcf7-validates-as-required {
+    width: 131%;
+}
+
+.google_map iframe {
+    width: 100%;
+    height: 500px;
+}
+
+ul.list-unstyled.li-space-lg a {
+    color: #cccc0b;
+}
